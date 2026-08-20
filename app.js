@@ -302,7 +302,7 @@ const addToSnipcart = () => {
     quantity: formState.quantity,
     image: product.images[0],
     description: product.description[0],
-    url: 'https://luxuryrawhair.com/',
+    url: 'https://luxuryrawhair.netlify.app/',
     customFields: [
       { 
         name: "Texture",
