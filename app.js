@@ -298,21 +298,22 @@ const addToSnipcart = () => {
   }
 
   const product = products[formState.productKey];
+  const variantId = `${formState.productKey}-${formState.height}`;
 
   Snipcart.api.cart.items.add({
-    id: formState.productKey,
-    name: product.title,
+    id: variantId,
+    name: `${product.title} ${formState.height} pouces`,
     price: parseFloat(formState.price),
     quantity: formState.quantity,
     image: product.images[0],
     description: product.description[0],
     url: product.url || 'https://luxuryrawhair.netlify.app/',
     customFields: [
-      { 
+      {
         name: "Texture",
-        value: formState.texture 
+        value: formState.texture
       },
-      { 
+      {
         name: "Longueur",
         value: String(formState.height) + " pouces"
       }
