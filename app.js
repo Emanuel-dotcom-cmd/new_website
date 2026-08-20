@@ -16,6 +16,7 @@ const createArray = (start, end, factor) => {
 const products = {
   raw: {
     title: "Raw Hair",
+    url: "https://luxuryrawhair.netlify.app/raw-hair.html",
     description: [
       "Découvrez l'excellence avec nos extension Raw hair. des cheveux 100% bruts et non transformés, provenant d'un seul donneur. Reconnus pour leur texture naturelle authentique, leur résistance à toute épreuve et leur brillance éclatante, nos Raw hair sont un investissement durable dans votre beauté. Leur polyvalence exceptionnelle vous permet de les teindre jusqu’à la teinte 613, de les coiffer selon vos envies et de les lisser thermiquement, tout en conservant leur souplesse et en restant sans enchevêtrement pour une longue durée. Faites l'expérience de la qualité supérieure avec nos Raw hair.",
     ],
@@ -26,6 +27,7 @@ const products = {
   },
   virgin: {
     title: "Virgin Hair",
+    url: "https://luxuryrawhair.netlify.app/virgin.html",
     description: ["Virgin : ne cherchez plus ! Vous avez trouvé exactement ce dont vous rêviez avec nos extensions Virgin hair. Nous vous offrons la meilleure qualité disponible et ce, à des prix absolument abordables , restent sans enchevêtrement pour un confort optimal et vous offrent une liberté totale. Elles peuvent être teintes jusqu\’à la couleur # 27 et avec une entretien approprié elles durent entre 1-2 ans. Offrez-vous l'excellence sans vous ruiner !"],
     images: ["../img/VIRGIN_1.png", "../img/VIRGIN_2.png"],
     prices: createArray(10, 20, 10),
@@ -34,6 +36,7 @@ const products = {
   },
   blond: {
     title: "Blond Hair",
+    url: "https://luxuryrawhair.netlify.app/blond.html",
     description: ["Découvrez l'éclat du blond 613, une teinte blond platine lumineuse et tendance. Parfait pour celles qui recherchent une transformation audacieuse et une chevelure pleine de lumière."],
     images: ["../img/BLONDE_1.png", "../img/BLONDE_2.png"],
     prices: [145,155,160,170,180,190,205,210,220,225],
@@ -42,6 +45,7 @@ const products = {
   },
   lace_hd: {
     title: "Lace HD",
+    url: "https://luxuryrawhair.netlify.app/lace-hd.html",
     description: ["Sublimez votre coiffure avec nos lace et closure HD qui créent un look naturel et absolument impeccable. Conçus pour une application facile, ils sont pré-customisés et pré-blanchis, vous offrant un gain de temps précieux. Obtenez une ligne de cheveux d'apparence naturelle et une finition parfaite en toute simplicité grâce à nos lace et closure HD."],
     images: [
       "../img/LACE_1.png",
@@ -302,7 +306,7 @@ const addToSnipcart = () => {
     quantity: formState.quantity,
     image: product.images[0],
     description: product.description[0],
-    url: 'https://luxuryrawhair.netlify.app/',
+    url: product.url || 'https://luxuryrawhair.netlify.app/',
     customFields: [
       { 
         name: "Texture",
