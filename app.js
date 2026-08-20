@@ -302,7 +302,7 @@ const addToSnipcart = () => {
 
   Snipcart.api.cart.items.add({
     id: variantId,
-    name: `${product.title} ${formState.height} pouces`,
+    name: `${product.title}`,
     price: parseFloat(formState.price),
     quantity: formState.quantity,
     image: product.images[0],
