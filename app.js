@@ -39,7 +39,7 @@ const products = {
     url: "https://luxuryrawhair.netlify.app/blond.html",
     description: ["Découvrez l'éclat du blond 613, une teinte blond platine lumineuse et tendance. Parfait pour celles qui recherchent une transformation audacieuse et une chevelure pleine de lumière."],
     images: ["../img/BLONDE_1.png", "../img/BLONDE_2.jpeg","../img/BLONDE_3.jpeg"],
-    prices: [145,155,160,170,180,190,205,210,220,225],
+    prices: [180,210,245,285,325,350,385,415,445,475],
     height: createArray(6,15,2),
     textures:['Straight']
   },
