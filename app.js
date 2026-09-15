@@ -52,7 +52,7 @@ const products = {
       "../img/LACE_1.png",
       "../img/LACE_2.png",
       "../img/LACE_3.jpeg"],
-    prices: [210,215,225,235],
+    prices: [230,240,270,290],
     height: createArray(7,10,2),
     textures:['Straight','Body Wave']
   },
@@ -65,7 +65,7 @@ const products = {
       "../img/CLOSURE_2.jpeg",
       "../img/CLOSURE_3.JPG",
       "../img/CLOSURE_4.JPEG"],
-    prices: [210,215,225,235],
+    prices: [160,175,190,210],
     height: createArray(7,10,2),
     textures:['Straight','Body Wave']
   }
