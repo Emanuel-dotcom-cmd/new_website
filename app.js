@@ -20,8 +20,8 @@ const products = {
     description: [
       "Découvrez l'excellence avec nos extension Raw hair. des cheveux 100% bruts et non transformés, provenant d'un seul donneur. Reconnus pour leur texture naturelle authentique, leur résistance à toute épreuve et leur brillance éclatante, nos Raw hair sont un investissement durable dans votre beauté. Leur polyvalence exceptionnelle vous permet de les teindre jusqu’à la teinte 613, de les coiffer selon vos envies et de les lisser thermiquement, tout en conservant leur souplesse et en restant sans enchevêtrement pour une longue durée. Faites l'expérience de la qualité supérieure avec nos Raw hair.",
     ],
-    images: ["../img/RAW_1.png"],
-    prices: createArray(13, 23, 10),
+    images: ["../img/RAW_1.png","../img/RAW_2.png","../img/RAW_3.png"],
+    prices: [155,165,175,185,200,215,235,255,275,290],
     height: createArray(6,15,2),
     textures:['Straight']
   },
@@ -29,8 +29,8 @@ const products = {
     title: "Virgin Hair",
     url: "https://luxuryrawhair.netlify.app/virgin.html",
     description: ["Virgin : ne cherchez plus ! Vous avez trouvé exactement ce dont vous rêviez avec nos extensions Virgin hair. Nous vous offrons la meilleure qualité disponible et ce, à des prix absolument abordables , restent sans enchevêtrement pour un confort optimal et vous offrent une liberté totale. Elles peuvent être teintes jusqu\’à la couleur # 27 et avec une entretien approprié elles durent entre 1-2 ans. Offrez-vous l'excellence sans vous ruiner !"],
-    images: ["../img/VIRGIN_1.png", "../img/VIRGIN_2.png"],
-    prices: createArray(10, 20, 10),
+    images: ["../img/VIRGIN_1.png", "../img/VIRGIN_2.png","../IMG/VIRGIN_3.png"],
+    prices: [115,125,135,145,160,175,185,195,205,210],
     height: createArray(6,15,2),
     textures:['Straight','Body Wave']
   },
@@ -38,22 +38,37 @@ const products = {
     title: "Blond Hair",
     url: "https://luxuryrawhair.netlify.app/blond.html",
     description: ["Découvrez l'éclat du blond 613, une teinte blond platine lumineuse et tendance. Parfait pour celles qui recherchent une transformation audacieuse et une chevelure pleine de lumière."],
-    images: ["../img/BLONDE_1.png", "../img/BLONDE_2.png"],
+    images: ["../img/BLONDE_1.png", "../img/BLONDE_2.jpeg","../img/BLONDE_3.jpeg"],
     prices: [145,155,160,170,180,190,205,210,220,225],
     height: createArray(6,15,2),
     textures:['Straight']
   },
-  lace_hd: {
-    title: "Lace HD",
-    url: "https://luxuryrawhair.netlify.app/lace-hd.html",
-    description: ["Sublimez votre coiffure avec nos lace et closure HD qui créent un look naturel et absolument impeccable. Conçus pour une application facile, ils sont pré-customisés et pré-blanchis, vous offrant un gain de temps précieux. Obtenez une ligne de cheveux d'apparence naturelle et une finition parfaite en toute simplicité grâce à nos lace et closure HD."],
+  hd_frontal: {
+    title: "HD Frontals",
+    url: "https://luxuryrawhair.netlify.app/hd-frontal.html",
+    description: [`Lace Frontal 13x4
+      Pour une liberté de coiffage absolue. S'étendant d'une oreille à l'autre (13 pouces) avec une profondeur de 4 pouces, la lace frontal 13x4 vous permet de réaliser des raies n'importe où, d'attacher vos cheveux ou de créer des coiffures relevées. Elle offre un effet ligne de cheveux parfaitement naturel comme s'ils poussaient directement de votre cuir chevelu.`],
     images: [
       "../img/LACE_1.png",
-      "../img/LACE_2.png"],
+      "../img/LACE_2.png",
+      "../img/LACE_3.jpeg"],
     prices: [210,215,225,235],
     height: createArray(7,10,2),
     textures:['Straight','Body Wave']
   },
+  hd_closure: {
+    title: "HD Closure",
+    url: "https://luxuryrawhair.netlify.app/hd-closure.html",
+    description: [`Lace Closure 5x5
+      La solution idéale pour un look naturel et sans effort au quotidien. Sa dimension de 5x5 pouces offre une raie profonde tout en couvrant le haut du front d'une tempe à l'autre. Très facile à entretenir et utilisable sans colle (glueless), elle protège vos cheveux naturels tout en garantissant un résultat impeccable.`],
+    images: [
+      "../img/CLOSURE_2.jpeg",
+      "../img/CLOSURE_3.JPG",
+      "../img/CLOSURE_4.JPEG"],
+    prices: [210,215,225,235],
+    height: createArray(7,10,2),
+    textures:['Straight','Body Wave']
+  }
 };
 
 let formState = {

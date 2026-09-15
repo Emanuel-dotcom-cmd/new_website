@@ -133,7 +133,7 @@ nav li a:hover
 .home img
 {
     position: relative;
-    width: 350px;
+    width: 450px;
     height: auto;
     border-radius: 10px;
 }
@@ -232,7 +232,7 @@ nav li a:hover
     justify-content: flex-end;
     align-items: center;
     margin: 20px;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: white;
     border-radius: 25px;
 }
@@ -285,7 +285,15 @@ nav li a:hover
     background-position: center;
     background-size: cover;
 }
-.img_1, .img_2, .img_3, .img_4
+
+.img_5
+{
+    background: url(../img/CLOSURE_1.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+.img_1, .img_2, .img_3, .img_4, .img_5
 {
     position: relative;
     width: 100%;
