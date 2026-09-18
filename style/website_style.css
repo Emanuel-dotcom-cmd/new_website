@@ -57,6 +57,7 @@ nav li a
     font-family: 'Lato', sans-serif;
     color: black;
     font-size: 1.1rem;
+    font-weight: bold;
 }
 
 nav li a:hover
