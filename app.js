@@ -35,7 +35,7 @@ const products = {
     textures:['Straight','Body Wave']
   },
   blond: {
-    title: "Blond Hair",
+    title: "Blond 613",
     url: "https://luxuryrawhair.netlify.app/blond.html",
     description: ["Découvrez l'éclat du blond 613, une teinte blond platine lumineuse et tendance. Parfait pour celles qui recherchent une transformation audacieuse et une chevelure pleine de lumière."],
     images: ["../img/BLONDE_1.png", "../img/BLONDE_2.jpeg","../img/BLONDE_3.jpeg"],
