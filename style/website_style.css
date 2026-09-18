@@ -752,6 +752,7 @@ textarea
     }
     
     .shipping_animation {
+        font-size: 0.9rem;
         width: 100%;
     }
     @keyframes shipping   {
