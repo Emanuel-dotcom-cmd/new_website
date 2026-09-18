@@ -56,7 +56,7 @@ nav li a
 {
     font-family: 'Lato', sans-serif;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -566,7 +566,7 @@ textarea
         text-align: center;
     }
     .home img {
-        width: 50%;
+        width: 40%;
     }
     .bars li {
         width: 100%;
