@@ -755,9 +755,15 @@ textarea
         font-size: 0.9rem;
         width: 100%;
     }
+
     .collection_title {
         font-size: 1.2rem;
     }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
     @keyframes shipping   {
         0% {
             transform: translateX(-100%);
