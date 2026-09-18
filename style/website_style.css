@@ -764,6 +764,10 @@ textarea
         font-size: 2.1rem;
     }
 
+    .description h3 {
+        font-size: 1.9rem;
+    }
+
     @keyframes shipping   {
         0% {
             transform: translateX(-100%);
