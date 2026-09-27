@@ -18,7 +18,7 @@ const products = {
     title: "Raw Hair",
     url: "https://luxuryrawhair.netlify.app/raw-hair.html",
     description: [
-      "Découvrez l'excellence avec nos extension Raw hair. des cheveux 100% bruts et non transformés, provenant d'un seul donneur. Reconnus pour leur texture naturelle authentique, leur résistance à toute épreuve et leur brillance éclatante, nos Raw hair sont un investissement durable dans votre beauté. Leur polyvalence exceptionnelle vous permet de les teindre jusqu’à la teinte 613, de les coiffer selon vos envies et de les lisser thermiquement, tout en conservant leur souplesse et en restant sans enchevêtrement pour une longue durée. Faites l'expérience de la qualité supérieure avec nos Raw hair.",
+      "Découvrez l'excellence avec nos extension Raw hair. des cheveux 100% bruts et non transformés, provenant d'un seul donneur. Reconnus pour leur texture naturelle authentique, leur résistance à toute épreuve et leur brillance éclatante, nos Raw hair sont un investissement durable dans votre beauté. Leur polyvalence exceptionnelle vous permet de les teindre jusqu’à la teinte 613, de les coiffer selon vos envies et de les lisser thermiquement, tout en conservant leur souplesse et en restant sans enchevêtrement pour une longue durée. Faites l'expérience de la qualité supérieure avec nos Raw hair. Ils sont d'ailleurs une durée de conservation allant de 3 à 7 ans selon l'entretien appliqué ",
     ],
     images: ["../img/RAW_1.png","../img/RAW_2.png","../img/RAW_3.png"],
     prices: [155,165,175,185,200,215,235,255,275,290],
