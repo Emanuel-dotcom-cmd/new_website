@@ -209,8 +209,8 @@ const createFormTemplate = (productKey) => {
     heightContainer,
     quantitylabel,
     quantityInput,
-    description,
-    submitBtn
+    submitBtn,
+    description
   );
 
   shopping.appendChild(form);

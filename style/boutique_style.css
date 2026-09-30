@@ -111,7 +111,9 @@
 
 #shopping_form input[type=submit]
 {
-  background: var(--background_button);
+  background: black;
+  color: white;
+  margin-left: 20px;
   font-family: 'Lato', sans-serif;
   box-shadow: 1px 1px black;
   border: 1px solid black;
@@ -121,8 +123,8 @@
 
 #shopping_form input[type=submit]:hover
 {
-  color: white;
-  background: black;
+  color: black;
+  background: white;
 }
 
 
