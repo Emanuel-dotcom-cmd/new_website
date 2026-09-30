@@ -594,30 +594,8 @@ textarea
     }
 
 }
-@media (any-pointer: coarse) {
-    .collection ul
-    {
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        scroll-padding-inline: 16px;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        padding: 0 16px 12px;
-    }
-    .collection ul::-webkit-scrollbar
-    {
-        display: none;
-    }
-    .collection ul li
-    {
-        flex: 0 0 min(78vw, 340px);
-        scroll-snap-align: center;
-    }
-}
 @media screen and (max-width: 900px) {
+
     .description h2
     {
         font-size: 1.7rem;
@@ -767,6 +745,28 @@ textarea
     }
     .newsletter input{
         width: 100%;
+    }
+    .collection ul
+    {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding-inline: 16px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding: 0 16px 12px;
+        touch-action: pan-x;
+    }
+    .collection ul::-webkit-scrollbar
+    {
+        display: none;
+    }
+    .collection ul li
+    {
+        flex: 0 0 min(78vw, 340px);
+        scroll-snap-align: center;
     }
 }
 
