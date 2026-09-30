@@ -111,8 +111,8 @@
 
 #shopping_form input[type=submit]
 {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   margin-left: 20px;
   font-family: 'Lato', sans-serif;
   box-shadow: 1px 1px black;
@@ -123,8 +123,8 @@
 
 #shopping_form input[type=submit]:hover
 {
-  color: black;
-  background: white;
+  color: white;
+  background: black;
 }
 
 
