@@ -17,7 +17,7 @@ const products = {
   raw: {
     title: "Raw Hair",
     url: "https://luxuryrawhair.netlify.app/raw-hair.html",
-    description: ["Le cheveu le plus pur et le plus durable du marché, sans aucun traitement chimique.\n100% Brut & Naturel : Provient d'un seul donneur, cuticules intactes et alignées (anti-nœuds).\n- Longévité Exceptionnelle : Dure 3-7 ans et plus avec des soins adaptés.\n- Coloration Illimitée : Se décolore et se colore extrêmement bien (jusqu'au blond le plus clair).\n- Mouvement Authentique : Ondulations et souplesse naturelles qui reprennent vie après chaque lavage.\n- Densité Idéale : Pointes riches, volume naturel et texture « seconde peau ». "],
+    description: ["Le cheveu le plus pur et le plus durable du marché, sans aucun traitement chimique.\n\n100% Brut & Naturel : Provient d'un seul donneur, cuticules intactes et alignées (anti-nœuds).\n- Longévité Exceptionnelle : Dure 3-7 ans et plus avec des soins adaptés.\n- Coloration Illimitée : Se décolore et se colore extrêmement bien (jusqu'au blond le plus clair).\n- Mouvement Authentique : Ondulations et souplesse naturelles qui reprennent vie après chaque lavage.\n- Densité Idéale : Pointes riches, volume naturel et texture « seconde peau ». "],
     images: ["../img/RAW_1.png","../img/RAW_2.png","../img/RAW_3.png"],
     prices: [155,165,175,185,200,215,235,255,275,290],
     height: createArray(6,15,2),
@@ -26,7 +26,7 @@ const products = {
   virgin: {
     title: "Virgin Hair",
     url: "https://luxuryrawhair.netlify.app/virgin.html",
-    description: ["Une alternative haut de gamme et abordable pour des textures parfaites et régulières.\n-Cheveux Naturels Sélectionnés : Issus de 2 à 3 donneurs, cuticules alignées.\n-Textures à la Vapeur : Travaillés sans produits chimiques pour des ondulations (Body Wave, Deep Wave) uniformes.\n- Très Bonne Durabilité : Dure 2 à 3 ans avec un bon entretien.\n- Facile à Coiffer : Plus souple et soyeux, s'adapte très facilement à tous les styles.\n- Excellent Rapport Qualité/Prix : Le compromis parfait entre budget et rendu naturel de qualité."],
+    description: ["Une alternative haut de gamme et abordable pour des textures parfaites et régulières.\n\n-Cheveux Naturels Sélectionnés : Issus de 2 à 3 donneurs, cuticules alignées.\n-Textures à la Vapeur : Travaillés sans produits chimiques pour des ondulations (Body Wave, Deep Wave) uniformes.\n- Très Bonne Durabilité : Dure 2 à 3 ans avec un bon entretien.\n- Facile à Coiffer : Plus souple et soyeux, s'adapte très facilement à tous les styles.\n- Excellent Rapport Qualité/Prix : Le compromis parfait entre budget et rendu naturel de qualité."],
     images: ["../img/VIRGIN_1.png", "../img/VIRGIN_2.png","../IMG/VIRGIN_3.png"],
     prices: [115,125,135,145,160,175,185,195,205,210],
     height: createArray(6,15,2),
@@ -35,7 +35,7 @@ const products = {
   blond: {
     title: "Blond 613",
     url: "https://luxuryrawhair.netlify.app/blond.html",
-    description: ["Le blond polaire éclatant, prêt à poser ou à personnaliser.\n-Blond Pur & Uniforme : Couleur lumineuse de la racine aux pointes, sans reflets chauds/jaunes.\n-Base de Coloration Idéale : Absorbe parfaitement les teintes pastel, intenses ou personnalisées.\n-Douceur & Brillance : Fibre souple et soyeuse qui reste facile à lisser et boucler.\n-Finition Soignée : Bandes extra-plates et coutures solides pour une pose confortable et invisible."],
+    description: ["Le blond polaire éclatant, prêt à poser ou à personnaliser.\n\n-Blond Pur & Uniforme : Couleur lumineuse de la racine aux pointes, sans reflets chauds/jaunes.\n-Base de Coloration Idéale : Absorbe parfaitement les teintes pastel, intenses ou personnalisées.\n-Douceur & Brillance : Fibre souple et soyeuse qui reste facile à lisser et boucler.\n-Finition Soignée : Bandes extra-plates et coutures solides pour une pose confortable et invisible."],
     images: ["../img/BLONDE_1.png", "../img/BLONDE_2.jpeg","../img/BLONDE_3.jpeg"],
     prices: [180,210,245,285,325,350,385,415,445,475],
     height: createArray(6,15,2),
