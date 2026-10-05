@@ -1,5 +1,8 @@
 const collection = document.querySelector("#collection");
 const collectionBtns = document.querySelectorAll("#collection a");
+const menu = document.querySelector(".navbar_toggle");
+const menuLogo = document.querySelector(".navbar_toggle i");
+const nav = document.querySelector("nav");
 
 const createArray = (start, end, factor) => {
   const createTable = (n) => {
@@ -20,6 +23,7 @@ const products = {
     description: ["Le cheveu le plus pur et le plus durable du marché, sans aucun traitement chimique.\n\n100% Brut & Naturel : Provient d'un seul donneur, cuticules intactes et alignées (anti-nœuds).\n- Longévité Exceptionnelle : Dure 3-7 ans et plus avec des soins adaptés.\n- Coloration Illimitée : Se décolore et se colore extrêmement bien (jusqu'au blond le plus clair).\n- Mouvement Authentique : Ondulations et souplesse naturelles qui reprennent vie après chaque lavage.\n- Densité Idéale : Pointes riches, volume naturel et texture « seconde peau ». "],
     images: ["../img/RAW_1.png","../img/RAW_2.png","../img/RAW_3.png"],
     prices: [155,165,175,185,200,215,235,255,275,290],
+    color:  "#1A1110",
     height: createArray(6,15,2),
     textures:['Straight']
   },
@@ -29,6 +33,7 @@ const products = {
     description: ["Une alternative haut de gamme et abordable pour des textures parfaites et régulières.\n\n-Cheveux Naturels Sélectionnés : Issus de 2 à 3 donneurs, cuticules alignées.\n-Textures à la Vapeur : Travaillés sans produits chimiques pour des ondulations (Body Wave, Deep Wave) uniformes.\n- Très Bonne Durabilité : Dure 2 à 3 ans avec un bon entretien.\n- Facile à Coiffer : Plus souple et soyeux, s'adapte très facilement à tous les styles.\n- Excellent Rapport Qualité/Prix : Le compromis parfait entre budget et rendu naturel de qualité."],
     images: ["../img/VIRGIN_1.png", "../img/VIRGIN_2.png","../IMG/VIRGIN_3.png"],
     prices: [115,125,135,145,160,175,185,195,205,210],
+    color: "#1A1110",
     height: createArray(6,15,2),
     textures:['Straight','Body Wave']
   },
@@ -38,6 +43,7 @@ const products = {
     description: ["Le blond polaire éclatant, prêt à poser ou à personnaliser.\n\n-Blond Pur & Uniforme : Couleur lumineuse de la racine aux pointes, sans reflets chauds/jaunes.\n-Base de Coloration Idéale : Absorbe parfaitement les teintes pastel, intenses ou personnalisées.\n-Douceur & Brillance : Fibre souple et soyeuse qui reste facile à lisser et boucler.\n-Finition Soignée : Bandes extra-plates et coutures solides pour une pose confortable et invisible."],
     images: ["../img/BLONDE_1.png", "../img/BLONDE_2.jpeg","../img/BLONDE_3.jpeg"],
     prices: [180,210,245,285,325,350,385,415,445,475],
+    color: "#1A1110",
     height: createArray(6,15,2),
     textures:['Straight']
   },
@@ -51,6 +57,7 @@ const products = {
       "../img/LACE_2.png",
       "../img/LACE_3.jpeg"],
     prices: [230,240,270,290],
+    color: "#1A1110",
     height: createArray(7,10,2),
     textures:['Straight','Body Wave']
   },
@@ -64,6 +71,7 @@ const products = {
       "../img/CLOSURE_3.JPG",
       "../img/CLOSURE_4.JPEG"],
     prices: [160,175,190,210],
+    color: "#1A1110",
     height: createArray(7,10,2),
     textures:['Straight','Body Wave']
   }
@@ -82,6 +90,17 @@ collectionBtns.forEach((btn) => {
     const productKey = e.currentTarget.dataset.product;
     createHTMLinterface(productKey);
   });
+});
+
+menu.addEventListener("click",() => {
+  if (menuLogo.classList == "ri-menu-line") {
+    menuLogo.classList = "ri-close-large-line";
+    nav.style.height = "360px";
+  } else if (menuLogo.classList == "ri-close-large-line") {
+    menuLogo.classList = "ri-menu-line";
+    nav.style.height = "12vh";
+  }
+  
 });
 
 const createHTMLinterface = (productKey) => {
@@ -171,6 +190,8 @@ const createFormTemplate = (productKey) => {
   const heightProduct = document.createElement("h4");
   const heightContainer = document.createElement('section')
   const textureProduct = document.createElement("h4");
+  const colorContainer = document.createElement("section");
+  const colorTitle = document.createElement("h4");
   const description = document.createElement("p");
   const quantitylabel = document.createElement("label");
   const quantityInput = document.createElement("input");
@@ -181,7 +202,8 @@ const createFormTemplate = (productKey) => {
   priceProduct.textContent = 'Prix: 0$';
   textureProduct.textContent = "Choisissez la texture:";
   heightProduct.textContent = "Choisissez la longueur:";
-  heightContainer.id = 'height_container'
+  heightContainer.id = 'height_container';
+  colorTitle = "Choisissez la couleur qui vous plait:"
   description.textContent = "Description du produit";
   quantitylabel.textContent = "Quantité:";
   quantitylabel.htmlFor = "quantity";
@@ -345,3 +367,4 @@ const highlightButtons = (type, value) => {
     }
   });
 };
+

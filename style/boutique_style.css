@@ -127,37 +127,3 @@
   background: black;
 }
 
-
-
-@media screen and (max-width: 768px) {
-    #shopping {
-        flex-direction: column;
-    }
-    #img_gallery {
-      flex-direction: row;
-    }
-    #img_post_up {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    #img_post_up img {
-        width: 90%; 
-    }
-
-    #shopping_form {
-        width: 100%;
-        margin: 10px 0;
-        padding: 0 5px;
-    }
-
-    #shopping_form h2 {
-        font-size: 1.8rem;
-        text-align: center;
-    }
-
-    #shopping_form input[type=button] {
-      color: black;
-    }
-}
