@@ -386,6 +386,9 @@ nav li a:hover
     margin-bottom: 10px;
     border: 5px solid #e297a7
 }
+.avis_star {
+    color: white;
+}
 
 .opinion ul li p 
 {
