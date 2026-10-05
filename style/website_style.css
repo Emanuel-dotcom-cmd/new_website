@@ -78,7 +78,10 @@ nav li a:hover
     background: white;
     cursor: pointer;
 }
-
+.navbar_toggle
+{
+    display: none;
+}
 .package:hover
 {
     transform: scale(1.1);
@@ -529,7 +532,7 @@ textarea
 }
 
 .newsletter input {
-  padding: 5px;
+  padding: 6px;
   border: 1px solid #aaa;
   flex: 1;
 }
