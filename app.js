@@ -203,7 +203,7 @@ const createFormTemplate = (productKey) => {
   textureProduct.textContent = "Choisissez la texture:";
   heightProduct.textContent = "Choisissez la longueur:";
   heightContainer.id = 'height_container';
-  colorTitle = "Choisissez la couleur qui vous plait:"
+  colorTitle.textContent = "Choisissez la couleur qui vous plait:";
   description.textContent = "Description du produit";
   quantitylabel.textContent = "Quantité:";
   quantitylabel.htmlFor = "quantity";
